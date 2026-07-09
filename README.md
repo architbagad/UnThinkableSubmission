@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Last-Mile Delivery Tracker
 
 A simple delivery management demo. Customers/admins create orders with an
@@ -106,3 +107,7 @@ Auth: send `Authorization: Bearer <token>` (from `/api/login`).
 | POST | `/api/orders/:id/status` | agent/admin | Update status |
 | POST | `/api/orders/:id/reschedule` | any | Reschedule a failed order (reassigns agent) |
 | GET  | `/api/notifications` | any | View sent notifications |
+=======
+# UnThinkableSubmission
+This repo is created for UnThinkable Submission Last-Mile Delivery Tracker.
+>>>>>>> 02f5a7d485ebada97d18489cff52cf4c4306c591
