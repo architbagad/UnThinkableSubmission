@@ -1,0 +1,10 @@
+{
+  "name": "lastmile-delivery-tracker",
+  "version": "1.0.0",
+  "description": "A simple Last-Mile Delivery Tracker (zero dependencies, plain Node.js).",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,23 @@
+{
+  "users": [
+    { "id": "admin1", "email": "admin@demo.com", "password": "admin123", "role": "admin", "name": "Admin" },
+    { "id": "agent1", "email": "agent1@demo.com", "password": "agent123", "role": "agent", "name": "Ravi" },
+    { "id": "agent2", "email": "agent2@demo.com", "password": "agent123", "role": "agent", "name": "Sunil" },
+    { "id": "cust1", "email": "customer@demo.com", "password": "cust123", "role": "customer", "name": "Amit" }
+  ],
+  "zones": [
+    { "id": "Z1", "name": "North Zone", "pincodes": ["110001", "110002", "110003"] },
+    { "id": "Z2", "name": "South Zone", "pincodes": ["400001", "400002", "400003"] }
+  ],
+  "rateCards": [
+    { "orderType": "B2B", "intraZoneRate": 30, "interZoneRate": 60 },
+    { "orderType": "B2C", "intraZoneRate": 40, "interZoneRate": 80 }
+  ],
+  "codSurcharge": { "B2B": 20, "B2C": 35 },
+  "agents": [
+    { "id": "agent1", "name": "Ravi", "zone": "Z1", "available": true },
+    { "id": "agent2", "name": "Sunil", "zone": "Z2", "available": true }
+  ],
+  "orders": [],
+  "notifications": []
+}
